@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./home.css">
+    <title>home</title>
+</head>
+<body>
+    <header>
+    <a id="headline" href="" class="logo">home</a>
+    <ul>
+        <li><a href="">menu</a></li>
+        <li><a href="index2.html">login</a></li>
+        <li><a href="index.html">signup</a></li>
+        <li><a href="./about Us.html">about us</a></li>
+        <li><a href="./Team.html">team</a></li>
+
+    </ul>
+
+    </header>
+    <section class="banner"></section>
+    <script type="text/javascript">
+    window.addEventListener("scroll",function(){
+    var header=document.querySelector("header");//decllaration
+    header.classList.toggle("sticky",window.scrollY>0);
+
+    });
+    
+    </script>
+    
+    <script src="./home.js"></script>
+    <script src="./admin.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
